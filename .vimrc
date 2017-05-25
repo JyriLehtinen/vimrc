@@ -9,6 +9,7 @@ set nu
 set hls
 map ¤ $
 
+autocmd FileType * set tabstop=2|set shiftwidth=2|set noexpandtab
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
 
 execute pathogen#infect()
