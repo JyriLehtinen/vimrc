@@ -15,6 +15,7 @@ set nu
 set mouse=
 set hls
 map ¤ $
+set tabpagemax=99
 
 
 execute pathogen#infect()
